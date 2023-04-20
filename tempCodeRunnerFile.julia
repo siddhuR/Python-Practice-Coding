@@ -1,0 +1,14 @@
+from tkinter import *
+def sel():
+    x=var1.get()
+    print("you selected"+str(x))
+root= Tk()
+root.geometry("300x300")
+
+var1=IntVar()
+Radio1=Radiobutton(frame, text="Option1", variable=var1, value=1, command=sel)
+Radio1.pack()
+Radio2=Radiobutton(frame, text="Option2", variable=var1, value=2, command=sel)
+Radio2.pack()
+Radio3=Radiobutton(frame, text="Option3", variable=var1, value=3, command=sel)
+Radio3.pack()

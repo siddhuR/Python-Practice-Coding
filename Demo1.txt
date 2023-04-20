@@ -1,0 +1,4 @@
+Hello how are you?
+Welcome to the class of file handling.
+enjoy the session
+This line is appended
